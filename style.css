@@ -1,0 +1,183 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.left img {
+  width: 36px;
+  height: 32px;
+}
+
+nav {
+  font-size: 13px;
+  padding-top: 14px;
+}
+
+.container {
+  padding: 0px 5vw;
+  /* padding-left: 50px; */
+  width: 90%
+}
+
+/* .container1 {
+   width: 100%; 
+} */
+
+nav ul li {
+  list-style: none;
+  padding: 0px 8px;
+}
+
+.section1 {
+  padding: 0 5vw;
+  height: 122vh;
+  position: absolute;
+  top: 68px;
+}
+
+/* header of webpage */
+header {
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  background-color: white;
+  height: 66px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.search {
+  width: 23vw;
+  height: 28px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border: 0 solid white;
+  position: absolute;
+  right: 310px;
+}
+
+.slide {
+  height: 400px;
+  position: relative;
+  background-image: url('p1.png');
+  background-size: 100% 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-top: 5px;
+  animation: slider 11s infinite linear;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url(p1.png);
+  }
+
+  20% {
+    background-image: url(p2.png);
+  }
+
+  40% {
+    background-image: url(p3.png);
+  }
+
+  60% {
+    background-image: url(p4.png);
+  }
+
+  80% {
+    background-image: url(p5.png);
+  }
+
+}
+
+.p1 {
+  width: 165px;
+  height: 200px;
+}
+
+.h1 {
+  font-size: 22px;
+  color: #3e4152;
+}
+
+#i1 {
+  width: 100%;
+}
+
+.i {
+  height: 25px;
+}
+
+#stick {
+  position: fixed;
+  /* position: absolute; */
+  /* float: right; */
+  top: 200px;
+  right: 0px;
+}
+
+.profile {
+  position: absolute;
+  right: 193px;
+  top: 40px;
+}
+
+.wish {
+  position: absolute;
+  right: 127px;
+  top: 39px;
+
+}
+
+.bag {
+  position: absolute;
+  right: 86px;
+  top: 39px;
+}
+
+.icon1 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 14px;
+  right: 203px;
+
+}
+
+.icon2 {
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  top: 14px;
+  right: 136px;
+
+}
+
+.icon3 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 14px;
+  right: 90px;
+
+}
+
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  top: 195%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  /* text-align: center; */
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.hov:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(252, 5, 169);
+  text-decoration-thickness: 3px;
+}
